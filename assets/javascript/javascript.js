@@ -8,7 +8,7 @@ var NetPet = function(hungerRate) {
   this.hungerValue = 100;
   this.hungerRate = hungerRate;
 
-  this.getHungrier = function() {
+  this.getHungrier = function() { // add hunger over time
     hungerValue += hungerRate;
   };
 
